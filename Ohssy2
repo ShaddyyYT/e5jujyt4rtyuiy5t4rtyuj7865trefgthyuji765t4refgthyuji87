@@ -70,7 +70,7 @@ OpenClose.Parent = Prova
 OpenClose.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 OpenClose.BackgroundTransparency = 1.000
 OpenClose.Size = UDim2.new(0, 100, 0, 100)
-OpenClose.Visible = false
+OpenClose.Visible = true
 
 Close.Name = "Close"
 Close.Parent = OpenClose
