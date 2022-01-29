@@ -599,6 +599,7 @@ UIGradient_14.Parent = KillAll
 
 UICorner_14.Parent = KillAll
 
+
 -- Scripts:
 
 local function IQKS_fake_script() -- TextButton.LocalScript 
@@ -636,24 +637,6 @@ local function IQKS_fake_script() -- TextButton.LocalScript
 			do
 				Open.Visible = false 
 				Open.Visible = false
-			end
-		end
-	end)
-	
-	RunService.RenderStepped:Connect(function()
-		if Check.Visible == true then 
-			do
-				Check.Visible = false 
-				Check.Visible = false
-			end
-		end
-	end)
-	
-	RunService.RenderStepped:Connect(function()
-		if Check.Visible == true then 
-			do
-				Gui.Visible = false 
-				Gui.Visible = false
 			end
 		end
 	end)
