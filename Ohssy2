@@ -116,31 +116,6 @@ UICorner_2.Parent = Open
 UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 170, 0))}
 UIGradient_2.Parent = Open
 
-Check.Name = "Check"
-Check.Parent = Prova
-Check.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Check.Position = UDim2.new(0.229007632, 0, 0.129292935, 0)
-Check.Size = UDim2.new(0, 535, 0, 329)
-
-TextButton.Parent = Check
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.Size = UDim2.new(0, 535, 0, 329)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Check"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextScaled = true
-TextButton.TextSize = 14.000
-TextButton.TextWrapped = true
-
-UICorner_3.Parent = TextButton
-
-UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 170, 0))}
-UIGradient_3.Parent = TextButton
-
-UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 170, 0))}
-UIGradient_4.Parent = Check
-
-UICorner_4.Parent = Check
 
 Gui.Name = "Gui"
 Gui.Parent = Prova
