@@ -63,7 +63,7 @@ local UICorner_17 = Instance.new("UICorner")
 Prova.Name = "Prova"
 Prova.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Prova.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-Prova.ResetOnSpawn = false
+Prova.ResetOnSpawn = true
 
 OpenClose.Name = "OpenClose"
 OpenClose.Parent = Prova
